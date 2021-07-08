@@ -9,7 +9,11 @@ class MyAlertDialog extends StatelessWidget {
           color: Colors.pink,
           child: Text(
             'Show Alter Dialog',
-            style: TextStyle(fontSize: 25, color: Colors.white),
+            style: TextStyle(
+              fontSize: 25,
+              color: Colors.white,
+              fontStyle: FontStyle.normal,
+            ),
           ),
           onPressed: () {
             showDialog(
